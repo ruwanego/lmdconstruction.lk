@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+
 body {
     font: 16px/1.5 'Karla', sans-serif;
     margin: 2rem 0 5rem;
     color: #333;
-      background: rgb(255, 202, 29);;
+    background: rgb(255, 202, 29);;
     font-variant-ligatures: common-ligatures;
--moz-font-feature-settings: "liga", "clig";
--ms-font-feature-settings: "liga", "clig";
--webkit-font-feature-settings: "liga", "clig";
-font-feature-settings: "liga", "clig";
+    -moz-font-feature-settings: "liga", "clig";
+    -ms-font-feature-settings: "liga", "clig";
+    -webkit-font-feature-settings: "liga", "clig";
+    font-feature-settings: "liga", "clig";
 }
 
 @media (min-width: 30rem) {
@@ -38,10 +39,12 @@ a {
 }
 
 a:hover,
-a:focus {}
+a:focus {
+}
 
 h1 {
-font-family: 'Ek Mukta', sans-serif;    font-weight: 700;
+    font-family: 'Ek Mukta', sans-serif;
+    font-weight: 700;
     margin: 0 0 0.5rem -0.1rem;
     color: #27628d;
     /* align left edge */
@@ -56,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-font-family: 'Ek Mukta', sans-serif;
+    font-family: 'Ek Mukta', sans-serif;
     font-weight: 700;
     margin: 0 0 0.5rem -0.1rem;
     color: #27628d;
@@ -67,15 +70,13 @@ font-family: 'Ek Mukta', sans-serif;
     text-rendering: optimizeLegibility;
 }
 
-
-
 h2.services {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 24px;
     line-height: 1.2;
     font-style: italic;
     text-align: center;
-  }
+}
 
 h1 {
     font-size: 2.5rem;
@@ -124,9 +125,11 @@ table,
 pre {
     margin-top: 0;
     margin-bottom: 1rem;
-font-family: 'Ek Mukta', sans-serif;}
+    font-family: 'Ek Mukta', sans-serif;
+}
 
-blockquote {}
+blockquote {
+}
 
 ul,
 ol {
@@ -141,7 +144,8 @@ blockquote {
     margin-left: 0;
     margin-right: 0;
     padding: .5rem 1rem;
-font-family: 'Ek Mukta', sans-serif;    font-weight: 700;
+    font-family: 'Ek Mukta', sans-serif;
+    font-weight: 700;
     color: #666;
     border-bottom: 1px solid #eee;
     border-top: 1px solid #eee;
@@ -208,6 +212,7 @@ pre > code {
     width: 100%;
     left: 0;
 }
+
 /*tiles*/
 
 .tile {
@@ -261,10 +266,10 @@ a.tile_link:focus {
     position: fixed;
 }
 
-#link_panel{
+#link_panel {
     background: url(../images/2.jpg);
-     background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     margin-bottom: -50px;
 
@@ -312,18 +317,16 @@ a.tile_link:focus {
     float: left;
 }
 
-
 #footer {
-  background: #fff;
-  /* margin: 50px; */
-  padding: 50px;
-  border-top: 1px #000 solid;
+    background: #fff;
+    /* margin: 50px; */
+    padding: 50px;
+    border-top: 1px #000 solid;
 }
 
-#yellow{
+#yellow {
 
-  background: #fff;
-  padding-top: 60px;
-
+    background: #fff;
+    padding-top: 60px;
 
 }

@@ -2,7 +2,8 @@
 
 <head>
     <meta charset="UTF-8">
-<link href='http://fonts.googleapis.com/css?family=Lato:700,700italic,900italic|Ek+Mukta:300,400,600,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:700,700italic,900italic|Ek+Mukta:300,400,600,800'
+          rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
@@ -24,8 +25,6 @@
                 window.open('{{ baseurl }}cleanstart-install.sh');
 
 
-
-
                 function downloadInnerHtml(filename, elId, mimeType) {
                     var elHtml = document.getElementById(elId).innerHTML;
                     var link = document.createElement('a');
@@ -34,6 +33,7 @@
                     link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(elHtml));
                     link.click();
                 }
+
                 var fileName = 'grphictools.list'; // You can use the .txt extension if you want
                 downloadInnerHtml(fileName, 'editor', 'text/plain');
                 //If you don't want the link to actually
